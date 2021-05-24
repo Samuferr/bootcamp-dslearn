@@ -19,7 +19,6 @@ public class Role implements Serializable {
 	private String authority;
 	
 	public Role() {
-		
 	}
 
 	public Role(Long id, String authority) {
@@ -68,6 +67,4 @@ public class Role implements Serializable {
 			return false;
 		return true;
 	}
-	
-	
 }
