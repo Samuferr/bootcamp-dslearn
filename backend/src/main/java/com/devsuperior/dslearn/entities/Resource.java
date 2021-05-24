@@ -13,6 +13,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.devsuperior.dslearn.entities.enums.ResourceType;
+
 @Entity
 @Table(name = "tb_resource")
 public class Resource implements Serializable {
